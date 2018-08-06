@@ -5,7 +5,7 @@ body, html{
 }
 
 #mainNav{
-	background-color: #edf2fb;
+	background-color: #fff;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
@@ -27,7 +27,7 @@ body, html{
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #edf2fb;
+    background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -81,24 +81,35 @@ body, html{
 	text-align: center;
 	text-shadow: 2px 2px #edf2fb;
 	letter-spacing: 6px;
-	font-size: 30px;
+}
+
+#headertext h1{
+    font-size: 60px;
+}
+
+#headertext h2{
+    font-size: 40px;
 }
 
 #about{
-    margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #C2E7DA;
 }
 
+.aboutme h2{
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+}
 .aboutme{
 	text-align: center;
 	padding: 10px 100px;
-	font-family: 'Roboto', sans-serif;
 	color: black;
-
 }
 
 .aboutme p{
 	color: #6c757d;
+    font-family: 'Roboto', sans-serif;
 }
 
 .profile-img{
@@ -113,7 +124,7 @@ body, html{
 	min-height:400px;
 	background-position: center;
 	background-size: cover;
-    opacity: .9;
+    opacity: ;
 }
 
 #servicestext{
@@ -125,7 +136,15 @@ body, html{
 	text-align: center;
 	text-shadow: 2px 2px #edf2fb;
 	letter-spacing: 6px;
-	font-size: 30px;
+	font-size: 32px;
+}
+
+#servicestext h1{
+    font-size: 60px;
+}
+
+#servicestext h2{
+    font-size: 40px;
 }
 
 .fa.fa-circle.fa-stack-2x.text-primary{
@@ -133,20 +152,24 @@ body, html{
 }
 
 .servicesbubble{
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding: 150px;
+    background-color: #C2E7DA;
 }
 
 .service-heading{
 	margin-top: 10px;
+    font-family: 'Lobster', cursive;
 }
 
-
+.servicebubble p{
+    font-family: 'Roboto', sans-serif;
+}
+#portfolio{
+    background-color: #9AD5CA;
+}
 
 #portfolioimg{
-	
 	min-height: 350px;
-
 }
 
 #portfoliotext{
@@ -156,7 +179,6 @@ body, html{
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	color: #0e2242;
-	text-shadow: 2px 2px #edf2fb;
 	letter-spacing: 6px;
 	font-size: 30px;
     text-decoration: underline;
@@ -175,12 +197,13 @@ body, html{
   max-width: 400px;
   padding: 25px;
   text-align: center;
-  background-color: #fff;
+  background-color: #0E2242;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
   margin: 0;
   text-transform: none;
+  color: white;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
@@ -188,6 +211,7 @@ body, html{
   font-style: italic;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  color: white;
 }
 
 #portfolio * {
@@ -243,7 +267,7 @@ body, html{
 }
 
 #sendMessageButton:hover{
-    background: #457ad7;
+    background: #9AD5CA;
     color: white;
     border-color: #0e2242;
 }
@@ -254,15 +278,19 @@ body, html{
 
 footer{
     
-    background-color: #0e2242;
+    background-color: #fff;
 }
 
 .copyright{
-    color: white;
+    color: #0e2242;
 }
 
 footer a{
-    color: white; 
+    color: #0e2242; 
+}
+
+footer a:hover{
+    color: #9AD5CA;
 }
 
 footer{
